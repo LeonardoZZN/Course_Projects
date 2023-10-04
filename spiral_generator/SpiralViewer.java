@@ -1,5 +1,4 @@
 // Name: Zining Zhu
-// USC NetID: ziningzh
 // CS 455 PA1
 // Fall 2023
 
