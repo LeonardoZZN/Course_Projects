@@ -1,5 +1,4 @@
 // Name: Zining Zhu
-// USC NetID: ziningzh
 // CS 455 PA2
 // Fall 2023
 
@@ -7,7 +6,7 @@
    This program is a hard-coded unit test program that tests the Bookshelf class.
    COPYRIGHT (C) 2023 Zining Zhu. All Rights Reserved.
    @author Zining Zhu
-   @version 1.01 2023-09-18
+   @version 1.01 2023-09-10
 */
 import java.util.ArrayList;
 
