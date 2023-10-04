@@ -1,5 +1,4 @@
 // Name: Zining Zhu
-// USC NetID: ziningzh
 // CSCI455 PA2
 // Fall 2023
 
@@ -11,6 +10,8 @@
  * non-decreasing order by height, with the restriction that single books can only be added 
  * or removed from one of the two *ends* of the bookshelf to complete a higher level pick or put 
  * operation.  Pick or put operations are performed with minimum number of such adds or removes.
+ * @author Zining Zhu
+ * @version 1.01 2023-09-10
  */
 public class BookshelfKeeper {
 
