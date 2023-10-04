@@ -1,5 +1,4 @@
 // Name: Zining Zhu
-// USC NetID: ziningzh
 // CSCI455 PA2
 // Fall 2023
 
@@ -14,6 +13,8 @@ import java.util.ArrayList;
  * However, you can look at any book on a shelf by giving its location (starting at 0).
  * Books are identified only by their height; two books of the same height can be
  * thought of as two copies of the same book.
+ * @author Zining Zhu
+ * @version 1.01 2023-09-10
  */
 public class Bookshelf {
 
