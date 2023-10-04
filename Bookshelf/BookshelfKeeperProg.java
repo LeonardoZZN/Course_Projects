@@ -1,5 +1,4 @@
 // Name: Zining Zhu
-// USC NetID: ziningzh
 // CSCI455 PA2
 // Fall 2023
 
@@ -8,6 +7,8 @@
  * any number of books of positive heights and maintain the books in a non-decreasing order of heights
  * through the BookshelfKeeper class. It also allows clients to pick a book from the bookshelf or put a 
  * book onto the shelf while maintaining its correct order of heights to avoid books falling down.
+ * @author Zining Zhu
+ * @version 1.01 2023-10-03
  */
 
 import java.util.Scanner;
