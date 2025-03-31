@@ -1,8 +1,5 @@
-CSCI 520, Assignment 1
+Author: Leonardo Zhu
 
-Name: Leonardo Zhu
-
-================
 Note: The executable files (jello.exe and createWorld.exe) are located in ./Bin/Debug. And the world files including parameters of initial conditions are located in ./world.
 
 In this project, I simulated a jelly cube made of elastic material of dimensions 1 meter x 1 meter x 1 meter, constrained in the interior of a bounding box of dimensions 4 meters x 4 meters x 4 meters. To model the cube, I utilized a 3D mass-spring network that consists of structural, shear, and bend springs connected to 8 * 8 * 8 = 512 discrete mass points of equal mass. The dynamics of the cube is modeled by taking into account Hook's force and damping force exerted by the three types of springs listed above, collisional forces exerted by the bounding box, and an external non-homogeneous time-independent force field (if any). I implemented a function in physics.cpp to compute the net acceleration of a specific mass point. The resultant acceleration is used to numerically solve a system of ordinary differential equations based on Newton's second law to determine the position and velocity of every model point by each timestep. This program supports two time-stepping integrators that respectively apply Euler integration and Runge-Kutta 4th order (RK4) integration.
