@@ -1,41 +1,3 @@
-Name: Leonardo Zhu
-USC NetID: ziningzh
-CS 455 PA4
-Fall 2023
-
-----------------------------------------------
-CERTIFY IT'S YOUR WORK
-
-"I certify that the work submitted for this assignment does not
-violate USC's student conduct code.  In particular, the work is my
-own, not a collaboration, and does not involve code created by other
-people or AI software, except for the the resources explicitly mentioned
-in the CS 455 Course Syllabus.  And I did not share my solution or part
-of it with other students in the course."
-
-Initial below to "sign" the above statement:
-
-Z.Z.
-----------------------------------------------
-ACKNOWLEDGE ANY OUTSIDE SOURCES
-
-List here any code you submitted for this assignment that was written
-with significant help of a course staff member, or code used from the
-textbook.  Be specific about what methods or algorithms are involved,
-and what sections of the textbook are involved (if applicable): [you do
-not need to list any of the code that we wrote for the assignment,
-i.e., the contents of the starter files for the assignment]
-
-
-
-----------------------------------------------
-KNOWN BUGS or LIMITATIONS:
-
-
-
-----------------------------------------------
-DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
-
 WordFinder class:
 This class is the console-based driver program to responsible for processing the command-line argument and the user
 input, handling any error processing, and printing out the resultant word list of all legal anagrams for given racks.
@@ -84,8 +46,6 @@ I created a constant integer array to store the Scrabble scores for the 26 Engli
 The only method in this class, getScore, can evaluate the Scrabble score of a given word by summing the scores of
 constituent letters of the word one by one. As this method works for both uppercase and lowercase letters,
 it converts all letters to their lowercase forms at the beginning.
-----------------------------------------------
-ANY OTHER NOTES FOR THE GRADER:
 
 
 
