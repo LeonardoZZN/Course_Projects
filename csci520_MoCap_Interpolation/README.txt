@@ -1,8 +1,5 @@
-CSCI 520, Assignment 1
+Author: Leonardo Zhu
 
-Name: Leonardo Zhu
-
-================
 Note: The source code along with all the AMC and ASF files used in this project are located at ./mocapPlayer-starter/. The two executable files (interpolate.exe and mocapPlayer.exe) are located in 
 ./IDE-starter/VS2017/Debug/.
 This program uses fltk-1.3.8, which has to be downloaded in the root directory.
