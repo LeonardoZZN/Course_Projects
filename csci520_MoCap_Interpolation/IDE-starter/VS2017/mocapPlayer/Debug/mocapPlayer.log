@@ -1,0 +1,14 @@
+﻿  displaySkeleton.cpp
+  interface.cpp
+  mocapPlayer.cpp
+  motion.cpp
+  performanceCounter.cpp
+  pic.cpp
+  posture.cpp
+  ppm.cpp
+  quaternion.cpp
+  skeleton.cpp
+  transform.cpp
+  vector.cpp
+  Generating Code...
+  mocapPlayer.vcxproj -> C:\Users\LeonardoZ\Desktop\csci520\csci520-assignment2-Leonardo_Zhu\IDE-starter\VS2017\Debug\mocapPlayer.exe
