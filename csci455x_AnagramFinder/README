@@ -1,0 +1,7 @@
+This console-based program prompts users to give stings in the form of English letters so that the constituent letters can comprise a Scrabble rack stored in a Rack object. 
+Then this program creates a list of all legal words that can be found from the letters on that rack, where the legal words are defined by a dictionary optionally input from the command-line argument. 
+If the specific dictionary is not prescribed by users, this program will automatically use the default Scrabble dictionary called "SOWPODS" for reference. 
+The dictionary will be preprocessed by constructing a AnagramDictionary object to group anagrams into different sets for later use.
+The output list of legal words is sorted in decreasing order by Scrabble scores which can be computed by a static method defined in the ScoreTable class.
+@author Zining Zhu
+@version 1.01 2023-11-15
