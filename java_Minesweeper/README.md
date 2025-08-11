@@ -9,7 +9,7 @@ Recreate the nostalgic puzzle experience directly from your terminal or GUI, wit
 ---
 
 ## 📚 Table of Contents
-- [About](#about)
+- [About](## 📖 About)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -47,10 +47,10 @@ It includes:
 **Steps**
 ```bash
 # Clone the repository
-git clone https://github.com/LeonardoZZN/Course_Projects/java_Minesweeper.git
+git clone https://github.com/LeonardoZZN/Course_Projects.git
 
 # Move into the project directory
-cd java_Minesweeper
+cd ./java_Minesweeper
 
 # Compile all Java files
 javac *.java
