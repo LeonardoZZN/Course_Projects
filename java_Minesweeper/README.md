@@ -62,9 +62,27 @@ Run the game:
 java MineSweeper
 ```
 
-Example Output:
-Welcome to Minesweeper!
-Enter row and column: 2 3
-Safe! Keep going...
-💣 BOOM! You hit a mine.
-Game Over.
+## ⚙ Configuration
+You can modify difficulty or board size by editing parameters in MineSweeper.java:
+```java
+private static int SIDE_LENGTH = 9; // number of rows (columns) for a square game board
+private static int NUM_MINES = 10;
+```
+## 📂 Project Structure
+```bash
+.
+├── MineSweeper.java         # Main game class
+├── MineSweeperFixed.java    # Alternative/main logic variant
+├── MineField.java           # Minefield generation and mine placement
+├── VisibleField.java        # Player-visible board state
+```
+
+## 🤝 Contributing
+1. Fork the repo
+2. Create your feature branch (git checkout -b feature/my-feature)
+3. Commit your changes (git commit -m 'Add feature')
+4. Push to the branch (git push origin feature/my-feature)
+5. Open a Pull Request
+
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
