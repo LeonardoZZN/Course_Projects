@@ -54,10 +54,13 @@ cd ./java_Minesweeper
 
 # Compile all Java files
 javac *.java
+```
 
 ## 🚀 Usage
 Run the game:
+```bash
 java MineSweeper
+```
 
 Example Output:
 Welcome to Minesweeper!
