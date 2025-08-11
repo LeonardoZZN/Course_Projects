@@ -9,7 +9,7 @@ Recreate the nostalgic puzzle experience directly from your terminal or GUI, wit
 ---
 
 ## 📚 Table of Contents
-- [About](##About)
+- [About](##about)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
