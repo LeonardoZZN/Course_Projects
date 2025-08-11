@@ -54,3 +54,14 @@ cd ./java_Minesweeper
 
 # Compile all Java files
 javac *.java
+
+## 🚀 Usage
+Run the game:
+java MineSweeper
+
+Example Output:
+Welcome to Minesweeper!
+Enter row and column: 2 3
+Safe! Keep going...
+💣 BOOM! You hit a mine.
+Game Over.
