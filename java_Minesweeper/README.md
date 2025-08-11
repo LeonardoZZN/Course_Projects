@@ -11,7 +11,7 @@ Recreate the nostalgic puzzle experience directly from your terminal or GUI, wit
 ## 📚 Table of Contents
 - [About](##about)
 - [Features](#features)
-- [Installation](#installation)
+- [Installation](##installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Project Structure](#project-structure)
