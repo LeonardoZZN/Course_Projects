@@ -75,7 +75,7 @@ private static int NUM_MINES = 10;
 ├── MineSweeperFixed.java    # Main logic variant with fixed locations of mines
 ├── MineField.java           # Minefield generation and mine placement
 ├── VisibleField.java        # Player-visible board state
-├── GameBoardPanel.java      # View and controller of the game (displays the board grids)
+└── GameBoardPanel.java      # View and controller of the game (displays the board grids)
 ```
 
 ## 🤝 Contributing
