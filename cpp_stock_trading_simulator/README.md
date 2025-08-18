@@ -1,4 +1,21 @@
 # 💹 Stock Trading System (UNIX Socket Programming)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Java](https://img.shields.io/badge/java-8%2B-orange)
+
+---
+
+## 📚 Table of Contents
+- [About](#-about)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Project Structure](#-project-structure)
+- [Design of Message Formats](#-design-of-message-formats)
+- [Reused Code](#-reused-code)
+- [Notes](#-notes)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -42,6 +59,8 @@ cd ./cpp_stock_trading_simulator
 make
 ```
 
+---
+
 ## 🚀 Usage
 Startup Order
 1. Start Server M first:
@@ -63,6 +82,8 @@ Each server loads its corresponding input file:
 ./client
 ```
 
+---
+
 ## 🔧 Configuration
 - Static port numbers are predefined in utility.h:
   - PORT_A = 41710
@@ -72,6 +93,8 @@ Each server loads its corresponding input file:
   - PORT_M_TCP = 45710
 - Localhost (127.0.0.1) is used for all communication.
 - Servers must be started before clients, with Server M always first. (The UDP connections between backend servers must be set up before any requests from clients can be served.)
+
+---
 
 ## 📂 Project Structure
 ```bash
@@ -88,6 +111,8 @@ Each server loads its corresponding input file:
 ├── quotes.txt      # Sample input file for quote server
 └── README.md       # Project documentation
 ```
+
+---
 
 ## 📡 Design of Message Formats 
 ### Authentication
@@ -142,9 +167,13 @@ Some functions/snippets are cited from Beej's Guide to Network Programming:
 - client.cpp: TCP connection setup snippet.
 - utility.h: sigchld_handler(int s), setupUDP(...).
 
+---
+
 ## ⚠️ Notes
 Server M must be started first before launching backend servers and clients.\
 Otherwise, TCP connections between clients and Server M will fail.
+
+---
 
 ## 🤝 Contributing
 1. Fork the repo
@@ -152,6 +181,8 @@ Otherwise, TCP connections between clients and Server M will fail.
 3. Commit your changes (`git commit -m 'Add feature'`)
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
+
+---
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
