@@ -50,7 +50,7 @@ It includes:
 git clone https://github.com/LeonardoZZN/Course_Projects.git
 
 # Move into the project directory
-cd ./java_Minesweeper
+cd ./java_Minesweeper/src
 
 # Compile all Java files
 javac *.java
