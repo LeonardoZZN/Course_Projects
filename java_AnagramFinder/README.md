@@ -1,4 +1,18 @@
 # 🔤 Scrabble Word Finder
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Java](https://img.shields.io/badge/java-8%2B-orange)
+
+---
+
+## 📚 Table of Contents
+- [About](#-about)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
