@@ -64,11 +64,11 @@ Rack? .
 
 ## 🔧 Configuration
 - Dictionary:
--- Defaults to SOWPODS.txt.
--- Can be overridden with a user-specified file provided as a command-line argument.
+  - Defaults to SOWPODS.txt.
+  - Can be overridden with a user-specified file provided as a command-line argument.
 - Rack input:
--- Enter strings of letters to form Scrabble racks.
--- Enter . to quit.
+  - Enter strings of letters to form Scrabble racks.
+  - Enter . to quit.
 
 ## 📂 Project Structure
 ```bash
