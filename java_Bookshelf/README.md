@@ -81,8 +81,8 @@ If desired, you can modify the initial bookshelf contents by editing the code in
 .
 ├── Bookshelf.java            # Defines the Bookshelf data structure
 ├── BookshelfKeeper.java      # Manages ordered operations on the bookshelf
-├── BookshelfKeeperProg.java  # Main driver program
-```
+└── BookshelfKeeperProg.java  # Main driver program
+```    
 ## 🤝 Contributing
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/my-feature`)
