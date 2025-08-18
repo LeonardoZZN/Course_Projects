@@ -39,6 +39,7 @@ git clone https://github.com/LeonardoZZN/Course_Projects.git
 cd ./java_AnagramFinder/src
 javac *.java
 ```
+
 ## 🚀 Usage
 Run the program with the default dictionary:
 `java WordFinder`
