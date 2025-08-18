@@ -59,9 +59,9 @@ Run the program:
 java BookshelfKeeperProg
 ```
 When you run the program, you can:
-Add books by specifying their heights.
-Remove books by index.
-Watch how the bookshelf automatically keeps books in order.
+- Add books by specifying their heights.
+- Remove books by index.
+- Watch how the bookshelf automatically keeps books in order.
 
 Example session:
 ```less
