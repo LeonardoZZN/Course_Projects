@@ -54,6 +54,8 @@ cd ./java_AnagramFinder/src
 javac *.java
 ```
 
+---
+
 ## 🚀 Usage
 Run the program with the default dictionary:
 `java WordFinder`
@@ -77,6 +79,8 @@ All of the words with their scores (sorted by score):
 Rack? .
 ```
 
+---
+
 ## 🔧 Configuration
 - Dictionary:
   - Defaults to SOWPODS.txt.
@@ -84,6 +88,8 @@ Rack? .
 - Rack input:
   - Enter strings of letters to form Scrabble racks.
   - Enter . to quit.
+
+---
 
 ## 📂 Project Structure
 ```bash
@@ -95,12 +101,17 @@ Rack? .
 ├── IllegalDictionaryException.java  # Extends IOException class to report dictionary errors
 └── sowpods.txt                      # Default input dictionary
 ```
+
+---
+
 ## 🤝 Contributing
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/my-feature`)
 3. Commit your changes (`git commit -m 'Add feature'`)
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
+
+---
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
