@@ -56,11 +56,15 @@ cd ./java_Minesweeper/src
 javac *.java
 ```
 
+---
+
 ## 🚀 Usage
 Run the game:
 ```bash
 java MineSweeper
 ```
+
+---
 
 ## ⚙ Configuration
 You can modify difficulty or board size by editing parameters in MineSweeper.java:
@@ -68,6 +72,9 @@ You can modify difficulty or board size by editing parameters in MineSweeper.jav
 private static int SIDE_LENGTH = 9; // number of rows (columns) for a square game board
 private static int NUM_MINES = 10;
 ```
+
+---
+
 ## 📂 Project Structure
 ```bash
 .
@@ -78,12 +85,16 @@ private static int NUM_MINES = 10;
 └── GameBoardPanel.java      # View and controller of the game (displays the board grids)
 ```
 
+---
+
 ## 🤝 Contributing
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/my-feature`)
 3. Commit your changes (`git commit -m 'Add feature'`)
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
+
+---
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
