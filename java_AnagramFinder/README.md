@@ -62,7 +62,7 @@ All of the words with their scores (sorted by score):
 Rack? .
 ```
 
-🔧 Configuration
+## 🔧 Configuration
 - Dictionary:
 -- Defaults to SOWPODS.txt.
 -- Can be overridden with a user-specified file provided as a command-line argument.
