@@ -61,7 +61,11 @@ Executables:
 - C++ compiler (Visual Studio 2017 recommended).  
 
 ### Steps
-1. Clone this repository.  
+1. Clone this repository.
+```bash
+git clone https://github.com/LeonardoZZN/Course_Projects.git
+cd cpp_jello_simulation
+```
 2. Place **fltk-1.3.8** in the root directory.  
 3. Open the Visual Studio solution and build the project.  
 
@@ -71,3 +75,4 @@ Executables:
 1. Navigate to executables:
    ```bash
    cd ./IDE-starter/VS2017/Debug/
+   ```
