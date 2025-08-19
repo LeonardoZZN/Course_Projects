@@ -77,7 +77,7 @@ Executables:
 
 ---
 
-## ▶️ Usage
+## 🚀 Usage
 1. Navigate to executables:
    ```bash
    cd ./IDE-starter/VS2017/Debug/
