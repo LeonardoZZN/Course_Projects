@@ -61,7 +61,7 @@ Executables:
 
 ---
 
-## ⚙️ Installation 
+## ⚙️ Installation
 ### Prerequisites
 - [FLTK 1.3.8](https://www.fltk.org/) — must be downloaded in the **root directory**.  
 - C++ compiler (Visual Studio 2017 recommended).  
