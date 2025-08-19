@@ -73,6 +73,7 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 ---
 
 ## ⚙️ Installation
+
 ### Prerequisites
 - **ADOL-C** library  
 - **Eigen** library  
@@ -89,7 +90,7 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 
 ---
 
-## ▶️ Usage
+## 🚀 Usage
 1. Navigate to one of the three demo model directories:  
 	```bash
 	./armadillo
@@ -163,4 +164,5 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
 
