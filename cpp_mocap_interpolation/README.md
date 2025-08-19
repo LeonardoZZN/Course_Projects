@@ -62,10 +62,10 @@ Executables:
 
 ### Steps
 1. Clone this repository.
-```bash
-git clone https://github.com/LeonardoZZN/Course_Projects.git
-cd cpp_jello_simulation
-```
+   ```bash
+   git clone https://github.com/LeonardoZZN/Course_Projects.git
+   cd cpp_jello_simulation
+   ```
 2. Place **fltk-1.3.8** in the root directory.  
 3. Open the Visual Studio solution and build the project.  
 
@@ -76,3 +76,51 @@ cd cpp_jello_simulation
    ```bash
    cd ./IDE-starter/VS2017/Debug/
    ```
+2. Run interpolation:
+   ```bash
+   ./interpolate.exe <input.amc> <N> <method>
+   ```
+   - <input.amc> — motion capture file.
+   - <N> — number of consecutive frames removed.
+   - <method> — one of linear_euler, bezier_euler, slerp, bezier_slerp.
+3. Visualize motion:
+   ```bash
+   ./mocapPlayer.exe <skeleton.asf> <motion.amc>
+   ```
+
+---
+
+## 🛠 Configuration
+- Source code and data: `./mocapPlayer-starter/`
+  - Includes `.asf` and `.amc` files.
+- Executables: `./IDE-starter/VS2017/Debug/`
+
+---
+
+## 📂 Project Structure
+```pgsql
+.
+├── mocapPlayer-starter/
+│   ├── *.cpp, *.h        # Source code
+│   ├── *.asf, *.amc      # Skeletons and motions
+├── IDE-starter/
+│   └── VS2017/Debug/
+│       ├── interpolate.exe
+│       └── mocapPlayer.exe
+├── graphs/               # Graphs of interpolation results
+└── README.md             # Project documentation
+```
+
+---
+
+## 🤝 Contributing
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
