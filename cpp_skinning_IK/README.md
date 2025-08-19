@@ -163,3 +163,4 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
