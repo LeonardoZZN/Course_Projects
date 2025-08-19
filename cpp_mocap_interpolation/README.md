@@ -73,7 +73,7 @@ Executables:
    cd cpp_mocap_interpolation
    ```
 2. Place **fltk-1.3.8** in the root directory.  
-3. Open the Visual Studio solution and build the project.  
+3. Open the Visual Studio solution (`./IDE-starter/VS2017/mocapPlayer.sln`) and build the project.  
 
 ---
 
