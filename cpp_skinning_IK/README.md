@@ -73,7 +73,6 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 ---
 
 ## ⚙️ Installation
-
 ### Prerequisites
 - **ADOL-C** library  
 - **Eigen** library  
@@ -164,5 +163,6 @@ This project implements **forward kinematics (FK)**, **inverse kinematics (IK)**
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
 
 
