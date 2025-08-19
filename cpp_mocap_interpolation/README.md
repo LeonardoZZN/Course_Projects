@@ -97,6 +97,7 @@ Executables:
 ---
 
 ## 🛠 Configuration
+- This project was developed and tested in Windows 11 64-bit arm.
 - Source code and data: `./mocapPlayer-starter/`
   - Includes `.asf` and `.amc` files.
 - Executables: `./IDE-starter/VS2017/Debug/`
