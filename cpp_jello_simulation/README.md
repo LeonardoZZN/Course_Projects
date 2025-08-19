@@ -3,6 +3,11 @@
 ![Java](https://img.shields.io/badge/java-8%2B-orange)
 
 ---
+# Acknowledgement
+The starter code is provided for course CSCI 520 Computer Animation and Simulation (https://viterbi-web.usc.edu/~jbarbic/cs520-s25/), taught by Professor Jernej Barbič.
+The project outline can be found on the course webpage: https://viterbi-web.usc.edu/~jbarbic/cs520-s25/assign1/.
+
+---
 
 ## 📚 Table of Contents
 - [About](#-about)
