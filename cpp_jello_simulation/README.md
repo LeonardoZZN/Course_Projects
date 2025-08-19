@@ -69,12 +69,12 @@ World files are located in `./world` and define cube properties, environment set
 1. Ensure your world files (*.w) are available in the `./world` directory.
 2. To create a new world file:
 ```bash
-[directory of the executable]/createWorld.exe output.w
+[directory_of_the_executable]/createWorld.exe output.w
 ```
 3. Experiment with parameters (spring constants, damping, timestep, external force field, etc.) by editing the world file directly or programmatically modifying the source code of `createWorld.cpp`.
 4.  Run the simulation:
 ```bash
-[directory of the executable]/jello.exe [directory of the world file]/[.w file]
+[directory_of_the_executable]/jello.exe [directory_of_the_world_file]/[.w file]
 ```
 
 ---
